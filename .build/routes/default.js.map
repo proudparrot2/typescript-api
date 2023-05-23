@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../routes/default.ts"],
+  "sourcesContent": ["import express from 'express'\n\nexport default (req: express.Request, res: express.Response) => {\n  res.status(200).send(\"sup\")\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAEA,IAAO,kBAAQ,CAAC,KAAsB,QAA0B;AAC9D,MAAI,OAAO,GAAG,EAAE,KAAK,KAAK;AAC5B;",
+  "names": []
+}

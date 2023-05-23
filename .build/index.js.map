@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["import express from 'express';\nimport ejs from 'ejs';\n\nconst app = express()\napp.set('view engine', 'ejs')\n\nimport defaultroute from './routes/default'\nimport fileupload from './routes/fileupload'\n\napp.get('/', defaultroute)\n\napp.listen(3000, () => {\n  console.log(\"lets a go!\")\n}) "],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA,qBAAoB;AAMpB,qBAAyB;AAHzB,MAAM,UAAM,eAAAA,SAAQ;AACpB,IAAI,IAAI,eAAe,KAAK;AAK5B,IAAI,IAAI,KAAK,eAAAC,OAAY;AAEzB,IAAI,OAAO,KAAM,MAAM;AACrB,UAAQ,IAAI,YAAY;AAC1B,CAAC;",
+  "names": ["express", "defaultroute"]
+}

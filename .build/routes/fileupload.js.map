@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../routes/fileupload.ts"],
+  "sourcesContent": ["import express, { Router } from 'express'\n\nexport const upload = express.Router()\n\nupload.post('/upload', (req: express.Request, res: express.Response) => {\n  \n})"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,qBAAgC;AAEzB,MAAM,SAAS,eAAAA,QAAQ,OAAO;AAErC,OAAO,KAAK,WAAW,CAAC,KAAsB,QAA0B;AAExE,CAAC;",
+  "names": ["express"]
+}
