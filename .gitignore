@@ -1,0 +1,9 @@
+.build/
+.config/
+.git/
+.upm/
+.git/
+node_modules/
+
+replit.nix
+.replit
